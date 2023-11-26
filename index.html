@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Socialbook-A moment to share</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-left">
+      <a href="index.html">
+     <img src="images/logo.png" class="logo">
+    </a>
+     <ul>
+          <li><img src="images/notification.png"></li>
+          <li><img src="images/inbox.png"></li>
+          <li><img src="images/video.png"></li>
+     </ul>
+    </div>
+    <div class="nav-right">
+      <div class="search-box">
+        <img src="images/search.png">
+        <input type="text"placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png">
+        </div>
+    </div>
+    <!-- settings-menu -->
+    <div class="settings-menu">
+     <div id="dark-btn">
+      <span></span>
+     </div>
+
+
+      <div class="settings-menu-inner">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksoln</p>
+              <a href="profile.html">See your profile </a>
+            </div>
+        </div>
+        <hr>
+          <div class="user-profile">
+          <img src="images/feedback.png">
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design </a>
+            </div>
+        </div>
+        <hr>
+        <div class="settings-links">
+          <img src="images/setting.png" class="settings-icon">
+          <a href="#">Settings and Privacy
+            <img src="images/arrow.png" width="10px">
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="images/help.png" class="settings-icon">
+          <a href="#">Help and Support
+            <img src="images/arrow.png" width="10px">
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="images/display.png" class="settings-icon">
+          <a href="#">Display and Accessibility
+            <img src="images/arrow.png" width="10px">
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="images/logout.png" class="settings-icon">
+          <a href="#">Log Out
+            <img src="images/arrow.png" width="10px">
+          </a>
+        </div>
+      </div>
+      
+    
+    </div>
+  </nav>
+  <div class="container">
+    <!-- left-sidebar -->
+    <div class="left-sidebar">
+      <div class="imp-links">
+        <a href="#"><img src="images/news.png">Latest News</a>
+        <a href="#"><img src="images/friends.png">Friends</a>
+        <a href="#"><img src="images/group.png">Group</a>
+        <a href="#"><img src="images/marketplace.png">Market place</a>
+        <a href="#"><img src="images/watch.png">Watch</a>
+        <a href="#">See More</a>
+      </div>
+      <div class="shorcut-links">
+        <p>Your shortcuts</p>
+        <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+        <a href="#"><img src="images/shortcut-2.png">Web Design Course</a>
+        <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+        <a href="#"><img src="images/shortcut-4.png">Web Design Experts</a>
+      </div>
+    </div>
+    <!-- mid-sidebar -->
+    <div class="mid-sidebar">
+      <div class="story-gallery">
+        <div class="story story1">
+          <img src="images/upload.png">
+          <p>Post story</p>
+        </div>
+        <div class="story story2">
+          <img src="images/member-1.png">
+          <p>Alison Jackson</p>
+        </div>
+        <div class="story story3">
+          <img src="images/member-2.png">
+          <p>Nick Charles</p>
+        </div>
+        <div class="story story4">
+          <img src="images/member-3.png">
+          <p>John Nick</p>
+        </div>
+        <div class="story story5">
+          <img src="images/member-4.png">
+          <p>Daiana Rose</p>
+        </div>
+      </div>
+      <div class="write-post-container">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksol</p>
+              <small>Public<img src="images/bb.jpg" style="height:16px;width:12px;padding-top: 4px;"></small>
+            </div>
+        </div>
+        <div class="post-input-container">
+          <textarea placeholder="What's on your mind, John?" cols="3" rows="3"></textarea>
+         <div class="add-post-links">
+          <a href="#"><img src="images/live-video.png">Live Video</a>
+          <a href="#"><img src="images/photo.png">Photo Video</a>
+          <a href="#"><img src="images/feeling.png">Feling Activity</a>
+         </div>
+
+        </div>
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksol</p>
+              <span>10 December 2023,13:45pm</span>
+            </div>
+        </div>
+        <a href="#"><img src="images/dots.jpg" style="height:16px;"></a>
+      </div>
+        <p class="post-text"><span>Socialbook is an online platform</span> where you choose to share your happy and sad moments with people who care and support you.
+          <a href="#">#Social Book Live</a>
+          <a href="#">#Social Platform</a>
+        </p>
+        <img src="images/feed-image-1.png" class="post-img">
+         <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <img src="images/like-blue.png">123
+            </div>
+            <div>
+              <img src="images/comments.png">126
+            </div>
+            <div>
+              <img src="images/share.png">127
+            </div>
+          </div>
+          <div class="post-profile-icon">
+           <img src="images/profile-pic.png"><img src="images/bb.jpg" style="height:16px;width:12px;padding-top: 4px;">
+          </div>
+         </div>
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksol</p>
+              <span>10 December 2023,13:45pm</span>
+            </div>
+        </div>
+        <a href="#"><img src="images/dots.jpg" style="height:16px;"></a>
+      </div>
+        <p class="post-text"><span>Socialbook is a secure platform</span> where you choose to share your happy and sad moments with people who care and support you.This site gives you complete privacy and protection of your private moments.
+          <a href="#">#family holiday Live</a>
+          <a href="#">#Social Platform</a>
+        </p>
+        <img src="images/feed-image-2.png" class="post-img">
+         <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <img src="images/like-blue.png">133
+            </div>
+            <div>
+              <img src="images/comments.png">128
+            </div>
+            <div>
+              <img src="images/share.png">227
+            </div>
+          </div>
+          <div class="post-profile-icon">
+           <img src="images/profile-pic.png"><img src="images/bb.jpg" style="height:16px;width:12px;padding-top: 4px;">
+          </div>
+         </div>
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksol</p>
+              <span>10 December 2023,13:45pm</span>
+            </div>
+        </div>
+        <a href="#"><img src="images/dots.jpg" style="height:16px;"></a>
+      </div>
+        <p class="post-text"><span>Socialbook is an online platform</span> where you choose to share your happy and sad moments with people who care and support you.
+          <a href="#">#Happy Holidays #Weekends</a>
+          <a href="#">#Social Platform</a>
+        </p>
+        <img src="images/feed-image-3.png" class="post-img">
+         <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <img src="images/like-blue.png">123
+            </div>
+            <div>
+              <img src="images/comments.png">126
+            </div>
+            <div>
+              <img src="images/share.png">127
+            </div>
+          </div>
+          <div class="post-profile-icon">
+           <img src="images/profile-pic.png"><img src="images/bb.jpg" style="height:16px;width:12px;padding-top: 4px;">
+          </div>
+         </div>
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksol</p>
+              <span>10 December 2023,13:45pm</span>
+            </div>
+        </div>
+        <a href="#"><img src="images/dots.jpg" style="height:16px;"></a>
+      </div>
+        <p class="post-text"><span>Socialbook is an online platform</span> where you choose to share your happy and sad moments with people who care and support you.
+          <a href="#">#Celebrating Life-a precious cheap gift</a>
+          <a href="#">#Social Platform</a>
+        </p>
+        <img src="images/feed-image-4.png" class="post-img">
+         <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <img src="images/like-blue.png">1123
+            </div>
+            <div>
+              <img src="images/comments.png">1126
+            </div>
+            <div>
+              <img src="images/share.png">3127
+            </div>
+          </div>
+          <div class="post-profile-icon">
+           <img src="images/profile-pic.png"><img src="images/bb.jpg" style="height:16px;width:12px;padding-top: 4px;">
+          </div>
+         </div>
+      </div>
+      <div class="post-container">
+        <div class="post-row">
+        <div class="user-profile">
+          <img src="images/profile-pic.png">
+            <div>
+              <p>John Nicksol</p>
+              <span>10 December 2023,13:45pm</span>
+            </div>
+        </div>
+        <a href="#"><img src="images/dots.jpg" style="height:16px;"></a>
+      </div>
+        <p class="post-text"><span>Socialbook is an online platform</span> where you choose to share your happy and sad moments with people who care and support you.
+          <a href="#">#Growing Together</a>
+          <a href="#">#Social Platform</a>
+        </p>
+        <img src="images/feed-image-5.png" class="post-img">
+         <div class="post-row">
+          <div class="activity-icons">
+            <div>
+              <img src="images/like-blue.png">103
+            </div>
+            <div>
+              <img src="images/comments.png">90
+            </div>
+            <div>
+              <img src="images/share.png">177
+            </div>
+          </div>
+          <div class="post-profile-icon">
+           <img src="images/profile-pic.png"><img src="images/bb.jpg" style="height:16px;width:12px;padding-top: 4px;">
+          </div>
+         </div>
+      </div>
+      <button  class="load-more-btn"type="button">Load More</button>
+    </div>
+    <!-- right-sidebar -->
+    <div class="right-sidebar">
+      <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#">See All</a>
+      </div>
+      <div class="event">
+        <div class="left-event">
+          <h3>23</h3>
+          <span>October</span>
+        </div>
+        <div class="right-event">
+           <h4>Social Media</h4>
+           <p><img src="images/location.png" style="height:13px;">Willson Tech Park</p>
+           <a href="#">More Info</a>
+        </div>
+      </div>
+      <div class="event">
+        <div class="left-event">
+          <h3>2</h3>
+          <span>March</span>
+        </div>
+        <div class="right-event">
+           <h4>Web Development</h4>
+           <p><img src="images/location.png" style="height:13px;">Cavonyl Tech Park</p>
+           <a href="#">More Info</a>
+        </div>
+      </div>
+      <div class="sidebar-title">
+        <h4>Advertisements</h4>
+        <a href="#">Close</a>
+      </div>
+      <img src="images/advertisement.png" class="sidebar-ads">
+      <div class="sidebar-title">
+        <h4>Conversations</h4>
+        <a href="#">Hide Chat</a>
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="images/member-1.png">
+        </div>
+          <p>Alison Matt</p>
+        
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="images/member-2.png">
+        </div>
+          <p>Nicolas Charles</p>
+        
+      </div>
+      <div class="online-list">
+        <div class="online">
+          <img src="images/member-3.png">
+        </div>
+          <p>John Nickson</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>CopyRight||2021||Social Book-HOME</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
